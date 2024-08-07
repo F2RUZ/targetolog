@@ -1,0 +1,120 @@
+.intro {
+  width: 100%;
+
+  &__wrapper {
+    width: 1100px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title {
+    width: 570px;
+    color: #ffffff;
+    font-size: 59px;
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 1.25;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+  }
+
+  &__text {
+    margin-top: 50px;
+    width: 450px;
+    color: #ffffff;
+    font-size: 19px;
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+  }
+
+  &__form {
+    padding: 50px 60px;
+    width: 500px;
+    height: 550px;
+    border: 3px solid #2e7bff;
+  }
+  &__subtitle {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    text-align: center;
+  }
+  &__subtext {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    text-align: center;
+    padding: 50px 0;
+  }
+  &__input {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 46, 46);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+  }
+  &__phone {
+    width: 100% !important;
+    border: none !important;
+    outline: none !important;
+    color: white !important;
+    background-color: rgb(46, 46, 46) !important;
+    border-radius: 30px !important;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px !important;
+  }
+
+  &__btn {
+    width: 100%;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 30px !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .intro {
+    &__wrapper {
+      width: 90%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__title {
+      width: 100%;
+      text-align: center;
+      font-size: 2rem;
+    }
+    &__text {
+      width: 100%;
+      text-align: center;
+    }
+    &__form {
+      width: 100%;
+    }
+  }
+}

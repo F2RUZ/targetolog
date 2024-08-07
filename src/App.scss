@@ -1,0 +1,20 @@
+.wrapper {
+  width: 100%;
+  min-height: 60vh;
+  background-image: url("./assets/img/introbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding-bottom: 60px;
+}
+
+.intro-wrapper {
+    width: 100%;
+
+  background: rgb(76, 76, 83);
+  background: linear-gradient(
+    90deg,
+    rgba(76, 76, 83, 1) 0%,
+    rgba(244, 237, 237, 1) 100%
+  );
+}
